@@ -1,0 +1,49 @@
+@layer components {
+  .typo-display {
+    font-size: var(--text-display);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--leading-display);
+  }
+
+  .typo-h1 {
+    font-size: var(--text-h1);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--leading-h1);
+  }
+
+  .typo-h2 {
+    font-size: var(--text-h2);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--leading-h2);
+  }
+
+  .typo-h3 {
+    font-size: var(--text-h3);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--leading-h3);
+  }
+
+  .typo-body-lg {
+    font-size: var(--text-body-lg);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--leading-body-lg);
+  }
+
+  .typo-body {
+    font-size: var(--text-body);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--leading-body);
+  }
+
+  .typo-label {
+    font-size: var(--text-label);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--leading-label);
+  }
+
+  .typo-caption {
+    font-size: var(--text-caption);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--leading-caption);
+  }
+}
