@@ -1,0 +1,25 @@
+@theme inline {
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  /* Shadow */
+  --shadow-card: 0 10px 20px rgba(0, 0, 0, 0.25);
+  --shadow-card-glow: 0 0 30px rgba(229, 9, 20, 0.4);
+  --shadow-avatar: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+  /* Motion durations */
+  --duration-fast: 0.2s;
+  --duration-base: 0.3s;
+
+  /* Motion easing */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Repeated motion values */
+  --scale-hover-card: 1.05;
+  --scale-hover-profile: 1.1;
+  --scale-modal-enter-from: 0.9;
+  --translate-modal-enter-from: 50px;
+}
