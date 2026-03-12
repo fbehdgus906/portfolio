@@ -10,9 +10,8 @@ module.exports = {
   parserPreset: {
     parserOpts: {
       // 정해진 헤더 패턴을 벗어 났을 때 커밋 통과 불가"
-      headerPattern:
-        /^(?:[\u2300-\u23ff]|[\ud83c\ud83d\ud83e][\ud000-\udfff])\s*(\w+):\s*(.*)$/,
-      headerCorrespondence: ["type", "subject"],
+      headerPattern: /^(\p{Emoji})\s*(\w+):\s*(.*)$/u,
+      headerCorrespondence: ["emoji", "type", "subject"],
     },
   },
 };
