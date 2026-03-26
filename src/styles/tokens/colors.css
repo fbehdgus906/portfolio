@@ -1,0 +1,26 @@
+@theme inline {
+  /* Netflix style colors */
+  --color-netflix-primary: #e50914;
+  --color-netflix-primary-hover: #b8070f;
+
+  /* Background */
+  --color-bg-black: #000000;
+  --color-bg-main: #141414;
+  --color-bg-modal: #181818;
+  --color-bg-card: #101828;
+
+  /* Text */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-text-tertiary: #808080;
+
+  /* Utility grays */
+  --color-gray-400: #99a1af;
+  --color-gray-500: #6a7282;
+  --color-gray-600: #4a5565;
+
+  /* Background hover */
+  --color-bg-card-hover: #1e2939;
+
+  /* Profile(미정) */
+}
