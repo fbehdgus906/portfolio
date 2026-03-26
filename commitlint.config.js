@@ -5,7 +5,7 @@ module.exports = {
     "start-with-gitmoji": [0],
     "type-empty": [2, "never"], // 타입(feat, fix 등)은 반드시 써야 함
     "subject-empty": [2, "never"], // 제목(작업 내용)은 반드시 써야 함
-    "type-case": [2, "always", "lower-case"], // 타입은 PascalCase로 작성해야 함 (예: feat, fix, docs)
+    "type-case": [2, "always", "lower-case"], // 타입은 lower-case로 작성해야 함 (예: feat, fix, docs)
     "header-max-length": [2, "always", 72],
   },
   parserPreset: {
